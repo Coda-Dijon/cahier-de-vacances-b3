@@ -45,6 +45,7 @@ jobs:
       - name: Install SonarCloud scanner
         run: |
           dotnet tool install --global dotnet-sonarscanner
+          echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
           
       - name: Restore dependencies
         run: dotnet restore
