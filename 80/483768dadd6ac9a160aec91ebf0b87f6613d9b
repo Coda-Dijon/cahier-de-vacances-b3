@@ -1,0 +1,20 @@
+.github/workflows/api-ci.yml
+  s_081a0f754eea99::t_964dc2fa7581d5 74
+  s_081a0f754eea99::t_f9380911d97fb3 41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "80483768dadd6ac9a160aec91ebf0b87f6613d9b",
+  "prompts": {},
+  "sessions": {
+    "s_081a0f754eea99": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "dac75648-8e4d-4f71-a574-fa8318cf390a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
